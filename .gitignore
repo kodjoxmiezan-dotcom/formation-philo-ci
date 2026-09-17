@@ -1,0 +1,15 @@
+# ATHENEE — fichiers à ne jamais publier
+local/athenee/secrets.php
+local/athenee/data.php
+local/athenee/knowledge/
+local/athenee/manuals/
+*.env
+.env*
+*_secret.txt
+*serial*.csv
+*activation_codes*.csv
+ATHENEE_v2_ADMIN_PRIVE.zip
+ATHENEE_Manuels_Apprenants.zip
+*.key
+*.pem
+.DS_Store
