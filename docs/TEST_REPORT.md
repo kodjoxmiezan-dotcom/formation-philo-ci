@@ -4,7 +4,7 @@ Recette technique mise à jour le 17 septembre 2026.
 
 ## Vérifications réussies
 
-- 42 fichiers PHP des composants ATHENEE passent `php -l` sans erreur dans l'environnement de construction ;
+- 43 fichiers PHP des composants ATHENEE passent `php -l` sans erreur dans l'environnement de construction ;
 - XMLDB Moodle : `install.xml` bien formé ;
 - données : 8 modules, 10 prétests + 10 post-tests par module, 16 tests objectifs finaux, 4 cas pratiques, durée 3600 s ;
 - PDF apprenants : 8 versions sans section de corrigés ;
@@ -14,6 +14,7 @@ Recette technique mise à jour le 17 septembre 2026.
 - 8 codes modules + code FINAL vérifiés ;
 - Edge Function `athenee-license` version 2 active, avec gestion des fenêtres d'ouverture/fermeture ;
 - Google Sheets : classeur ATHENEE et onglets de suivi créés ;
+- kit Moodle local Docker : scripts de démarrage/arrêt validés par `bash -n` et archive ZIP vérifiée ;
 - archives ZIP : contrôle SHA-256 et intégrité réussis ;
 - source publique : aucune liste de serials, aucun code d'activation, aucun secret réel, aucune banque de réponses protégée.
 
