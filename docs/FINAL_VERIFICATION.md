@@ -11,7 +11,7 @@ Date : 17 septembre 2026.
 - Edge Function `athenee-license` **version 2** active : activation plateforme, déverrouillage module, lecture et modification des fenêtres d'activation.
 - 8 PDF apprenants présents ; les sections de corrigés/clé de réponses ont été retirées.
 - PDF prévus hors webroot Moodle, dans `moodledata/local_athenee/manuals`, puis servis après contrôle du scope activé.
-- 42 fichiers PHP des composants ont passé `php -l` sans erreur dans l'environnement de construction.
+- 43 fichiers PHP des composants ont passé `php -l` sans erreur dans l'environnement de construction.
 - XMLDB `db/install.xml` bien formé.
 - 8 prétests de 10 items et 8 post-tests de 10 items.
 - Évaluation finale : 16 tests objectifs + 4 cas pratiques ; durée serveur 3600 s ; compte à rebours client + contrôle serveur.
@@ -19,6 +19,7 @@ Date : 17 septembre 2026.
 - Badge nominatif par module ; attestation finale imprimable/PDF avec code de vérification.
 - Google Sheets créé dans Drive avec Dashboard, Journal, Progression, Notes_Modules, Evaluation_Finale, Concours et Parametres.
 - Script Apps Script préparé ; file locale Moodle de reprise prévue en cas de coupure.
+- Kit de recette locale Moodle 5.2.3/Docker préparé ; scripts de démarrage et d'arrêt validés syntaxiquement.
 - Archives ZIP : contrôle SHA-256 et intégrité réussis.
 - Paquet public scanné : aucun serial, code module, secret serveur ou banque de réponses protégée en clair.
 
