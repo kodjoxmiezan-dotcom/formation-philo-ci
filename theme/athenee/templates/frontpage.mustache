@@ -1,0 +1,25 @@
+<div class="athenee-page">
+<header class="ath-top">
+  <a class="ath-brand" href="{{config.wwwroot}}"><img src="{{logo}}" alt="Logo ATHENEE"><div><strong>ATHENEE</strong><span>Plateforme de formation des professeurs<br>de philosophie de Côte d’Ivoire</span></div></a>
+  <div class="ath-top-actions"><a href="{{tutorialurl}}">Tutoriel</a><a href="{{progressurl}}">Ma progression</a><a class="ath-login" href="{{loginurl}}">Connexion</a></div>
+</header>
+<nav class="ath-nav"><a href="#">Accueil</a><a href="#modules">Formations</a><a href="#resources">Ressources</a><a href="#community">Communauté</a><a href="{{contesturl}}">Concours</a><a href="{{tutorialurl}}">Assistance</a></nav>
+
+<section class="ath-hero" style="--hero:url('{{hero}}')">
+  <div class="ath-copy"><div class="ath-eyebrow">SE FORMER • PARTAGER • PROGRESSER</div><h1>Modules d’autoformation<br>pour le professeur de philosophie</h1><p>Huit parcours cohérents, contextualisés et directement utiles à la pratique professionnelle en Côte d’Ivoire.</p><a class="ath-cta" href="{{starturl}}">🎓 POUR COMMENCER LA FORMATION →</a></div>
+  <a class="ath-author-mini" href="{{authorurl}}"><img src="{{author}}" alt="ÉBOULÉ Miézan"><span><b>ÉBOULÉ Miézan</b><small>Concepteur • Encadreur pédagogique • Technopédagogue</small></span></a>
+</section>
+
+<section id="community" class="ath-quickbar">
+  <a class="ath-wa" href="{{whatsappurl}}" target="_blank" rel="noopener">WhatsApp ATHENEE</a>
+  <a class="ath-jitsi" href="{{jitsiurl}}" target="_blank" rel="noopener">Jitsi Meet</a>
+  <a class="ath-contest" href="{{contesturl}}">🏆 Concours national - affiche & règlement</a>
+</section>
+
+<section id="modules" class="ath-section"><div class="ath-section-head"><div><span></span><h2>Nos 8 modules de formation</h2><p>Chaque module s’ouvre uniquement après activation de son code à 5 caractères.</p></div></div>
+<div class="ath-course-grid">{{#courses}}<a class="ath-course" href="{{url}}" style="--accent:{{accent}}"><div class="ath-course-img"><img src="{{hero}}" alt=""><b>MODULE {{num}}</b></div><h3>{{title}}</h3><p>Code d’activation requis</p><span class="ath-lock">🔒</span></a>{{/courses}}</div></section>
+
+<section id="resources" class="ath-resources"><div class="ath-resource-title"><h2>Manuels et fongibles partenaires</h2><p>Défilement continu des ouvrages. Survoler pour suspendre.</p></div><div class="ath-marquee"><div class="ath-track"><img src="{{books}}" alt="Manuels et fongibles"><img src="{{books}}" alt="Manuels et fongibles"></div></div></section>
+<section class="ath-partners"><div><h3>Partenaires éditeurs</h3><p>FP Éditions • JFS Éditions • Vallesse • SUD Éditions • L’Encre Bleue</p></div><img src="{{publisherlogos}}" alt="Logos des partenaires éditeurs"></section>
+<footer class="ath-footer"><b>ATHENEE</b><span>Infoline : {{infoline}}</span></footer>
+</div>
